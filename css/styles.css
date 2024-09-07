@@ -78,8 +78,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  border-radius: 4px;
-  padding: 16px 32px;
   background: #4d5ae5;
 }
 .buttom-order:hover,
@@ -178,7 +176,7 @@ footer {
   color: #4d5ae5;
 }
 .footer-logo {
-  color: #2e2f42;
+  color: #f4f4fd;
 }
 .footer-text {
   font-size: 16px;

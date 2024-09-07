@@ -13,8 +13,8 @@ button {
 }
 
 body {
-  font-family: 'Roboto', 'Raleway', sans-serif;
-  color: #2e2f42;
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
   background-color: #ffffff;
 }
 /* ============ common styles ============ */
@@ -24,13 +24,13 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 .web-logo {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 .page-nav {
   font-weight: 500;
@@ -38,6 +38,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+.contacts {
+  font-style: normal;
 }
 .contacts-link {
   font-weight: 400;
@@ -64,17 +67,19 @@ body {
 .hero-name {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
 }
 .buttom-order {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: #fff;
   border-radius: 4px;
   padding: 16px 32px;
-  width: 169px;
-  height: 56px;
   background: #4d5ae5;
 }
 .buttom-order:hover,
@@ -101,14 +106,22 @@ body {
 /* ============ Skills Style ============ */
 
 /* ============ Team Style ============ */
+.team {
+  background-color: #f4f4fd;
+}
 .team-page {
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
+.team-item {
+  background-color: #ffffff;
+}
+
 .team-head {
   font-size: 20px;
   font-weight: 500;
@@ -130,7 +143,8 @@ body {
 .port-page {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
+  text-transform: capitalize;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -158,13 +172,13 @@ footer {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: #4d5ae5;
 }
 .footer-logo {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 .footer-text {
   font-size: 16px;

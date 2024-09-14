@@ -1,6 +1,19 @@
+/* ============ common styles ============ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
 ul,
 ol {
   list-style-type: none;
+  padding: 0;
 }
 
 a {
@@ -12,14 +25,46 @@ button {
   cursor: pointer;
 }
 
+img {
+  display: block;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
-/* ============ common styles ============ */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ============ /common styles ============ */
 
 /* ============ Header styles ============ */
+.head-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .page-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -38,10 +83,26 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  display: flex;
+  align-items: center;
 }
+
+.page-menu {
+  display: flex;
+  gap: 40px;
+  margin-left: 76px;
+}
+
 .contacts {
   font-style: normal;
 }
+
+.contacts-menu {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
 .contacts-link {
   font-weight: 400;
   font-size: 16px;
@@ -58,11 +119,17 @@ body {
 .contacts-link:focus {
   color: #404bbf;
 }
-/* ============ Header styles ============ */
+/* ============ /Header styles ============ */
 
 /* ============ Hero styles ============ */
 .hero {
   background-color: #2e2f42;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .hero-name {
   font-weight: 700;
@@ -79,6 +146,11 @@ body {
   letter-spacing: 0.04em;
   color: #fff;
   background: #4d5ae5;
+  margin-top: 48px;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px #00000026;
 }
 .buttom-order:hover,
 .buttom-order:focus {
@@ -87,6 +159,15 @@ body {
 /* ============ Hero styles ============ */
 
 /* ============ Skills Style ============ */
+.skills {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.skills-list {
+  display: flex;
+  gap: 24px;
+}
+
 .skills-title {
   font-weight: 500;
   font-size: 20px;
@@ -106,6 +187,8 @@ body {
 /* ============ Team Style ============ */
 .team {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .team-page {
   font-size: 36px;
@@ -116,8 +199,19 @@ body {
   color: #2e2f42;
   text-transform: capitalize;
 }
+.team-list {
+  margin-top: 72px;
+  display: flex;
+  gap: 24px;
+}
 .team-item {
   background-color: #ffffff;
+  width: 264px;
+  padding-bottom: 32px;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px #2e2f4214;
+  box-shadow: 0px 1px 1px 0px #2e2f4229;
+  box-shadow: 0px 1px 6px 0px #2e2f4214;
 }
 
 .team-head {
@@ -127,6 +221,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-top: 32px;
 }
 .team-text {
   font-size: 16px;
@@ -138,6 +233,10 @@ body {
 /* ============ Team Style ============ */
 
 /* ============ Portfolio ============ */
+.portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .port-page {
   font-weight: 700;
   font-size: 36px;
@@ -147,12 +246,33 @@ body {
   text-align: center;
   color: #2e2f42;
 }
+
+.port-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 72px;
+}
+
+.port-item {
+  width: 360px;
+}
+
+.shild {
+  width: 100%;
+  padding: 32px 0 32px 16px;
+  border-right: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+}
+
 .port-head {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-top: 32px;
 }
 .port-text {
   font-size: 16px;
@@ -167,6 +287,10 @@ footer {
   background-color: #2e2f42;
 }
 .footer-page {
+  width: 264px;
+  padding: 100px 0;
+}
+.footer-link {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -183,5 +307,6 @@ footer {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  margin-top: 16px;
 }
 /* ============ Footer ============ */

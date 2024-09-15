@@ -82,6 +82,8 @@ body {
   display: flex;
   flex-direction: row;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .page-item-nav {
   padding-top: 24px;

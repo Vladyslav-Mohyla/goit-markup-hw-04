@@ -82,6 +82,9 @@ body {
   display: flex;
   flex-direction: row;
   gap: 40px;
+}
+
+.page-item {
   padding: 24px 0;
 }
 

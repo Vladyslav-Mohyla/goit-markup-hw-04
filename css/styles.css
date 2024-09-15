@@ -21,6 +21,10 @@ a {
   text-decoration: none;
 }
 
+img {
+  display: block;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -61,6 +65,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.page-item {
+  padding: 24px 0;
 }
 
 .page-logo {

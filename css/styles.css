@@ -66,6 +66,7 @@ body {
 .decorate {
   position: relative;
   color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .decorate::after {
@@ -77,7 +78,6 @@ body {
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .head-menu {
@@ -162,7 +162,7 @@ body {
       rgba(46, 47, 66, 0.7)
     ),
     url(/images/people-office.jpg);
-  /* max-width: 1440px; */
+  max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -235,7 +235,7 @@ body {
   margin-bottom: 8px;
 }
 
-.skills-icon svg {
+svg {
   width: 64px;
   height: 64px;
 }
@@ -289,25 +289,20 @@ body {
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  border-radius: 0px 0px 4px 4px;
 }
 
-.team-social-icon {
-  padding: 32px 0;
-}
-
-.social-icon {
+.social-link-icon {
   display: flex;
   justify-content: center;
   gap: 24px;
 }
 
-.icon {
+.icon-1 {
   width: 40px;
   height: 40px;
 }
 
-.social-link {
+.link-1 {
   width: 100%;
   height: 100%;
   background-color: #4d5ae5;
@@ -317,17 +312,17 @@ body {
   justify-content: center;
 }
 
-.social-link:hover,
-.social-link:focus {
-  background-color: #404bbf;
-}
-
-.icon svg {
+.link-1 svg {
   width: 16px;
   height: 16px;
 }
 
-.svg-icon {
+.link-1:hover,
+.link-1:focus {
+  background-color: #404bbf;
+}
+
+.svg-1 {
   fill: #f4f4fd;
 }
 

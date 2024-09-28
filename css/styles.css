@@ -61,7 +61,6 @@ body {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-  max-width: 1440px;
 }
 
 .decorate {
@@ -164,10 +163,12 @@ body {
     ),
     url(/images/people-office.jpg);
   max-width: 1440px;
+  margin: auto;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
+
 .hero-name {
   font-weight: 700;
   font-size: 56px;
@@ -180,6 +181,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
 .buttom-order {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -429,7 +431,6 @@ footer {
 }
 
 .container {
-  display: flex;
   align-items: baseline;
 }
 

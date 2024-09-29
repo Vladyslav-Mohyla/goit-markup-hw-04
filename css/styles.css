@@ -50,7 +50,7 @@ button {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
@@ -161,7 +161,7 @@ body {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/people-office.jpg);
+    url(../images/people-office.jpg);
   max-width: 1440px;
   margin: auto;
   background-repeat: no-repeat;
@@ -279,6 +279,7 @@ body {
 
 .team-text {
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .team-item {
@@ -435,7 +436,7 @@ footer {
   align-items: baseline;
 }
 
-.footer-text {
+.footer-main-text {
   margin-right: 120px;
 }
 
